@@ -10,6 +10,9 @@ importers:
             "@tanstack/react-router":
                 specifier: ^1.36.3
                 version: 1.36.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+            framer-motion:
+                specifier: ^11.2.10
+                version: 11.2.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
             react:
                 specifier: ^18.2.0
                 version: 18.3.1
@@ -1600,6 +1603,23 @@ packages:
                 integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==,
             }
 
+    framer-motion@11.2.10:
+        resolution:
+            {
+                integrity: sha512-/gr3PLZUVFCc86a9MqCUboVrALscrdluzTb3yew+2/qKBU8CX6nzs918/SRBRCqaPbx0TZP10CB6yFgK2C5cYQ==,
+            }
+        peerDependencies:
+            "@emotion/is-prop-valid": "*"
+            react: ^18.0.0
+            react-dom: ^18.0.0
+        peerDependenciesMeta:
+            "@emotion/is-prop-valid":
+                optional: true
+            react:
+                optional: true
+            react-dom:
+                optional: true
+
     fs.realpath@1.0.0:
         resolution:
             {
@@ -2720,6 +2740,12 @@ packages:
         resolution:
             {
                 integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==,
+            }
+
+    tslib@2.6.3:
+        resolution:
+            {
+                integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==,
             }
 
     type-check@0.4.0:
@@ -3850,6 +3876,13 @@ snapshots:
 
     fraction.js@4.3.7: {}
 
+    framer-motion@11.2.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+        dependencies:
+            tslib: 2.6.3
+        optionalDependencies:
+            react: 18.3.1
+            react-dom: 18.3.1(react@18.3.1)
+
     fs.realpath@1.0.0: {}
 
     fsevents@2.3.3:
@@ -4417,6 +4450,8 @@ snapshots:
             typescript: 5.4.5
 
     ts-interface-checker@0.1.13: {}
+
+    tslib@2.6.3: {}
 
     type-check@0.4.0:
         dependencies:
