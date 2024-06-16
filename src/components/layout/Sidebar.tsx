@@ -32,7 +32,7 @@ export const Sidebar: FunctionComponent = () => {
                 </motion.button>
             </SheetTrigger>
             <SheetContent
-                className="w-auto sm:w-[540px]"
+                className="w-auto sm:w-[300px]"
                 side="left"
             >
                 <SheetHeader>
@@ -46,7 +46,7 @@ export const Sidebar: FunctionComponent = () => {
                                 <Link
                                     to={item.url}
                                     aria-label={item.ariaLabel}
-                                    className="-mx-2 block rounded px-2 py-1 text-slate-800 transition-colors hover:text-red-600 focus:outline-dotted focus:outline-1 focus:outline-slate-800 [&.active]:text-red-600"
+                                    className="-mx-2 mb-1 block rounded p-2 text-slate-800 transition-colors last:mb-0 hover:bg-slate-50 hover:text-slate-900 focus:bg-slate-50 focus:outline-dotted focus:outline-1 focus:outline-slate-800 [&.active]:bg-neutral-100 [&.active]:text-slate-900"
                                 >
                                     {item.label}
                                 </Link>

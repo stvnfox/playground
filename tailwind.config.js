@@ -12,6 +12,9 @@ module.exports = {
             },
         },
         extend: {
+            fontFamily: {
+                sans: ["Raleway", "sans-serif"],
+            },
             keyframes: {
                 "accordion-down": {
                     from: { height: "0" },

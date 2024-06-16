@@ -20,7 +20,7 @@ const SheetOverlay = React.forwardRef<
 >(({ className, ...props }, ref) => (
     <SheetPrimitive.Overlay
         className={cn(
-            "fixed inset-0 z-50 bg-black/20 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
+            "data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 z-50 bg-black/20",
             className
         )}
         {...props}
@@ -30,13 +30,13 @@ const SheetOverlay = React.forwardRef<
 SheetOverlay.displayName = SheetPrimitive.Overlay.displayName
 
 const sheetVariants = cva(
-    "fixed rounded-md z-50 gap-4 bg-white p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-350 data-[state=open]:duration-300 !data-[state=open]:ease-[cubic-bezier(.51,.29,.46,.9)] !data-[state=closed]:ease-[cubic-bezier(.51,.29,.46,.9)] dark:bg-slate-950",
+    "fixed rounded-md z-50 gap-4 bg-white p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-350 data-[state=open]:duration-300 data-[state=open]:ease-[cubic-bezier(.51,.29,.46,.9)] data-[state=closed]:ease-[cubic-bezier(.51,.29,.46,.9)] dark:bg-slate-950",
     {
         variants: {
             side: {
                 top: "inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top",
                 bottom: "inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom",
-                left: "inset-4 left-4 h-[calc(100%-32px)] w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
+                left: "inset-2 left-2 md:inset-4 md:left-4 h-[calc(100%-32px)] w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
                 right: "inset-y-0 right-0 h-full w-3/4 border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm",
             },
         },
