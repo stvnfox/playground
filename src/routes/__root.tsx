@@ -1,5 +1,6 @@
 import React, { Suspense } from "react"
 import { createRootRoute, Outlet } from "@tanstack/react-router"
+import { ArrowNavigation } from "@/components/layout/ArrowNavigation"
 import { Sidebar } from "@/components/layout/Sidebar"
 
 const TanStackRouterDevtools =
@@ -16,6 +17,7 @@ export const Route = createRootRoute({
     component: () => (
         <>
             <Sidebar />
+            <ArrowNavigation />
             <Outlet />
             <Suspense>
                 <TanStackRouterDevtools />

@@ -18,7 +18,7 @@ export const Sidebar: FunctionComponent = () => {
         <Sheet>
             <SheetTrigger
                 asChild
-                className="absolute left-6 top-8 cursor-pointer rounded-lg border border-neutral-100 p-2 text-neutral-800 shadow-md"
+                className="absolute left-6 top-8 flex size-10 cursor-pointer items-center justify-center rounded-lg border border-neutral-100 text-neutral-800 shadow-md"
             >
                 <motion.button
                     whileHover={{
