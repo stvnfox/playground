@@ -26,7 +26,7 @@ export const Sidebar: FunctionComponent = () => {
                     }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                     tabIndex={1}
-                    className="group focus:outline-dotted focus:outline-1 focus:outline-slate-800"
+                    className="group focus:outline-dotted focus:outline-1 focus:outline-slate-800 will-change-transform"
                 >
                     <MenuIcon size={24} />
                 </motion.button>

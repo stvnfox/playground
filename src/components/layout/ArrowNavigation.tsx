@@ -39,7 +39,7 @@ export const ArrowNavigation: FunctionComponent = () => {
                     }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                     tabIndex={1}
-                    className={clsx("group focus:outline-dotted focus:outline-1 focus:outline-slate-800", {
+                    className={clsx("group focus:outline-dotted focus:outline-1 focus:outline-slate-800 will-change-transform", {
                         hidden: currentRouteIndex === dashboardIndex,
                     })}
                 >
@@ -58,7 +58,7 @@ export const ArrowNavigation: FunctionComponent = () => {
                     }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                     tabIndex={1}
-                    className={clsx("group focus:outline-dotted focus:outline-1 focus:outline-slate-800", {
+                    className={clsx("group focus:outline-dotted focus:outline-1 focus:outline-slate-800 will-change-transform", {
                         hidden: currentRouteIndex === lastRouteIndex,
                     })}
                 >
