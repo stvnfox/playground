@@ -70,7 +70,7 @@ const SheetContent = React.forwardRef<React.ElementRef<typeof SheetPrimitive.Con
                         }}
                         transition={{ type: "spring", stiffness: 400, damping: 10 }}
                         tabIndex={1}
-                        className="group focus:outline-dotted focus:outline-1 focus:outline-slate-800"
+                        className="group focus:outline-dotted focus:outline-1 focus:outline-slate-800 will-change-transform"
                     >
                         <Cross2Icon className="h-4 w-4" />
                         <span className="sr-only">Close</span>
