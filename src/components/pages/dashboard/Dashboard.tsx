@@ -36,6 +36,7 @@ export const Dashboard: FunctionComponent = () => {
                             key={index}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
+                            // @ts-expect-error transition prop is not recognized by the span element
                             transition={ text.transition }
                             className="absolute left-1/2 -translate-x-1/2 w-full"
                             dangerouslySetInnerHTML={{ __html: text.text }}
