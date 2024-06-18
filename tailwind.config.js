@@ -14,6 +14,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ["Raleway", "sans-serif"],
+                cartoon: ["Comic Neue", "sans-serif"],
             },
             keyframes: {
                 "accordion-down": {
