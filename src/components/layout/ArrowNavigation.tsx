@@ -30,7 +30,7 @@ export const ArrowNavigation: FunctionComponent = () => {
             <Button
                 asChild
                 variant={null}
-                className="absolute right-[calc(64px+12px)] top-8 size-10 rounded-lg border border-neutral-100 bg-white p-2 text-neutral-800 shadow-md"
+                className="absolute right-[calc(64px+12px)] top-8 z-50 size-10 rounded-lg border border-neutral-100 bg-white p-2 text-neutral-800 shadow-md"
                 onMouseDown={goToPrevItem}
             >
                 <motion.button
@@ -39,9 +39,12 @@ export const ArrowNavigation: FunctionComponent = () => {
                     }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                     tabIndex={1}
-                    className={clsx("group focus:outline-dotted focus:outline-1 focus:outline-slate-800 will-change-transform", {
-                        hidden: currentRouteIndex === dashboardIndex,
-                    })}
+                    className={clsx(
+                        "group will-change-transform focus:outline-dotted focus:outline-1 focus:outline-slate-800",
+                        {
+                            hidden: currentRouteIndex === dashboardIndex,
+                        }
+                    )}
                 >
                     <ArrowLeft size={24} />
                 </motion.button>
@@ -49,7 +52,7 @@ export const ArrowNavigation: FunctionComponent = () => {
             <Button
                 asChild
                 variant={null}
-                className="absolute right-6 top-8 size-10 rounded-lg border border-neutral-100 p-2 text-neutral-800 shadow-md"
+                className="absolute right-6 top-8 z-50 size-10 rounded-lg border border-neutral-100 p-2 text-neutral-800 shadow-md"
                 onClick={goToNextItem}
             >
                 <motion.button
@@ -58,9 +61,12 @@ export const ArrowNavigation: FunctionComponent = () => {
                     }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
                     tabIndex={1}
-                    className={clsx("group focus:outline-dotted focus:outline-1 focus:outline-slate-800 will-change-transform", {
-                        hidden: currentRouteIndex === lastRouteIndex,
-                    })}
+                    className={clsx(
+                        "group will-change-transform focus:outline-dotted focus:outline-1 focus:outline-slate-800",
+                        {
+                            hidden: currentRouteIndex === lastRouteIndex,
+                        }
+                    )}
                 >
                     <ArrowRight size={24} />
                 </motion.button>

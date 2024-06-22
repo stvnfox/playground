@@ -6,9 +6,9 @@ export const menuItems = [
         index: 0,
     },
     {
-        label: "About",
-        url: "/about",
-        ariaLabel: "Click here to go to the about page where you can read more about this project",
+        label: "Navigation",
+        url: "/navigation",
+        ariaLabel: "Click here to go to the navigation example page",
         index: 1,
     },
 ]
