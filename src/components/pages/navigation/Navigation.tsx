@@ -41,7 +41,7 @@ export const Navigation = () => {
                                     className="absolute inset-0 rounded-lg bg-gray-700/5"
                                 />
                             ) : null}
-                            <span className="relative text-inherit">{item.label}</span>
+                            <motion.span layout className="inline-block relative text-inherit">{item.label}</motion.span>
                         </motion.li>
                     ))}
                     <motion.li
