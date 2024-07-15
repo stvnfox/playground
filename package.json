@@ -30,7 +30,7 @@
         "tailwindcss-animate": "^1.0.7"
     },
     "devDependencies": {
-        "@tanstack/router-devtools": "^1.45.0",
+        "@tanstack/router-devtools": "^1.45.1",
         "@tanstack/router-vite-plugin": "^1.45.0",
         "@types/node": "^20.14.10",
         "@types/react": "^18.3.3",
