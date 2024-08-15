@@ -21,8 +21,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(@types/react@18.3.3)(react@18.3.1)
       '@tanstack/react-router':
-        specifier: ^1.47.5
-        version: 1.47.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.48.1
+        version: 1.48.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -33,8 +33,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       framer-motion:
-        specifier: ^11.3.24
-        version: 11.3.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^11.3.27
+        version: 11.3.27(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide-react:
         specifier: ^0.395.0
         version: 0.395.0(react@18.3.1)
@@ -52,8 +52,8 @@ importers:
         version: 1.0.7(tailwindcss@3.4.10)
     devDependencies:
       '@tanstack/router-devtools':
-        specifier: ^1.47.5
-        version: 1.47.5(@tanstack/react-router@1.47.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(csstype@3.1.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.48.1
+        version: 1.48.1(@tanstack/react-router@1.48.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(csstype@3.1.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tanstack/router-vite-plugin':
         specifier: ^1.47.0
         version: 1.47.0(vite@5.4.0(@types/node@20.14.15))
@@ -805,8 +805,8 @@ packages:
     resolution: {integrity: sha512-n4XXInV9irIq0obRvINIkESkGk280Q+xkIIbswmM0z9nAu2wsIRZNvlmPrtYh6bgNWtItOWWoihFUjLTW8g6Jg==}
     engines: {node: '>=12'}
 
-  '@tanstack/react-router@1.47.5':
-    resolution: {integrity: sha512-lhq1fAAQLrVz95vMF0XY2bUXPoLg/wuUZX/M6n9V7O0FbkZK+K+ayp7zj8ysiFbFy1m+iOgdjVOUGoRXqioTwA==}
+  '@tanstack/react-router@1.48.1':
+    resolution: {integrity: sha512-ThEYm8zg1AD1A1ZSuOrWVDG8Lq3g2/jIggN8FpQm5zZ98PQxabR8M9pE0ioVqlYsAXEAXvjfVqLal2FL8XTzag==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18'
@@ -818,11 +818,11 @@ packages:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
 
-  '@tanstack/router-devtools@1.47.5':
-    resolution: {integrity: sha512-vZiEyAz1RjsfBH9lV6js4dJTHlC0m8ud1BnqTJTPMNHo/3g4sTM1a72+uw/s/+aVDdIgJSSsRutNXPFZPvNM+w==}
+  '@tanstack/router-devtools@1.48.1':
+    resolution: {integrity: sha512-J+T2ompX2WPxkFR24QQtMYrUNkf3uO6mdTo7YvdQZ4NxsscLkbWEdOhMm7edBpz39JX3QYkENH2OmK2UwbWTdA==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@tanstack/react-router': ^1.47.5
+      '@tanstack/react-router': ^1.48.1
       react: '>=18'
       react-dom: '>=18'
 
@@ -1288,8 +1288,8 @@ packages:
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
-  framer-motion@11.3.24:
-    resolution: {integrity: sha512-kl0YI7HwAtyV0VOAWuU/rXoOS8+z5qSkMN6rZS+a9oe6fIha6SC3vjJN6u/hBpvjrg5MQNdSnqnjYxm0WYTX9g==}
+  framer-motion@11.3.27:
+    resolution: {integrity: sha512-Uf72PFEZuei/1IeCmGJ236EIl6VUri7SLovtTGg/cOAzMHG01CXXg1aL3ofuTuYr6Sq1QALlcEDaTig0PXb4Dw==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -2768,7 +2768,7 @@ snapshots:
 
   '@tanstack/history@1.45.3': {}
 
-  '@tanstack/react-router@1.47.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@tanstack/react-router@1.48.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@tanstack/history': 1.45.3
       '@tanstack/react-store': 0.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2784,9 +2784,9 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       use-sync-external-store: 1.2.2(react@18.3.1)
 
-  '@tanstack/router-devtools@1.47.5(@tanstack/react-router@1.47.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(csstype@3.1.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@tanstack/router-devtools@1.48.1(@tanstack/react-router@1.48.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(csstype@3.1.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@tanstack/react-router': 1.47.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tanstack/react-router': 1.48.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       clsx: 2.1.1
       goober: 2.1.14(csstype@3.1.3)
       react: 18.3.1
@@ -3341,7 +3341,7 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  framer-motion@11.3.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.3.27(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       tslib: 2.6.3
     optionalDependencies:
