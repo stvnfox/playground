@@ -31,8 +31,8 @@
     },
     "devDependencies": {
         "@tanstack/router-devtools": "^1.58.9",
-        "@tanstack/router-vite-plugin": "^1.58.4",
-        "@types/node": "^22.7.1",
+        "@tanstack/router-vite-plugin": "^1.58.10",
+        "@types/node": "^22.7.2",
         "@types/react": "^18.3.9",
         "@types/react-dom": "^18.3.0",
         "@typescript-eslint/eslint-plugin": "^7.18.0",
