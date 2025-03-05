@@ -14,7 +14,7 @@ const TanStackRouterDevtools =
 
 export const Route = createRootRoute({
   component: () => (
-    <div className="container mx-auto flex h-screen flex-col py-8 lg:py-16">
+    <div className="container mx-auto flex h-screen flex-col py-8 antialiased lg:py-16">
       <Header />
       <Outlet />
       <Suspense>
