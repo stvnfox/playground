@@ -106,10 +106,7 @@ export const ThemeSwitcher: FunctionComponent = () => {
                 }
           }
           d={moonPath}
-          // className={cn(
-          //   mode === "dark" && "-translate-x-[8px] -translate-y-[8px]",
-          //   mode === "light" && "translate-x-[1px] translate-y-[1px]"
-          // )}
+          className="translate-x-[1px] translate-y-[1px]"
         />
         <motion.g
           variants={rayVariants}
