@@ -3,7 +3,7 @@
 import { useEffect, useState, type FunctionComponent } from "react";
 import { motion } from "motion/react";
 
-import { cn } from "@/lib/utils";
+// import { cn } from "@/lib/utils";
 
 type Theme = "dark" | "light";
 
