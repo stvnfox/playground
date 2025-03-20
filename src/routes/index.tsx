@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import { Button } from "@/components/ui/button";
+import { ButtonAnimation } from "@/components/blocks/button-animation/component";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -8,9 +8,8 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="p-2">
-      <h3>Welcome Home!</h3>
-      <Button>Click me</Button>
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+      <ButtonAnimation />
     </div>
   );
 }
